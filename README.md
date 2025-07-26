@@ -45,6 +45,7 @@ network 192.168.160.24 0.0.0.3 area 0
 
 
 ##EIGRP
+
 router eigrp 100
 
 network 192.168.1.0 0.0.0.255
