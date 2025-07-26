@@ -21,17 +21,17 @@ The network connects multiple departments, halls, library, and administrative bu
   
 ## 🔐 Security Implementation
 
-- * Extended ACLs* to filter network traffic
+- * Extended ACLs* to filter network traffic(all departments can communicate with server but they cannot communicate with each other)
 - VLAN segmentation for isolation between different buildings/departments
 - Controlled Internet access simulation
 
 ## 🗂 File Included
 
-- nstu_network_design.pkt – The main Packet Tracer project file
+- Campus Area Network.pkt – The main Packet Tracer project file
 
 ## 🖥 How to Use
 
-1. Open nstu_network_design.pkt with *Cisco Packet Tracer*.
+1. Open Campus Area Network.pkt with *Cisco Packet Tracer*.
 2. Explore the network topology: routers, switches, PCs, and servers.
 3. View and modify routing tables, VLANs, and ACL configurations.
 4. Use the simulation tab to test connectivity and packet flows.
