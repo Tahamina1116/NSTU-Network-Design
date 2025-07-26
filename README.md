@@ -41,10 +41,13 @@ The network connects multiple departments, halls, library, and administrative bu
 ### OSPF on Core Router
 router ospf 1
 network 192.168.160.24 0.0.0.3 area 0
+
+
 ##EIGRP
 router eigrp 100
 network 192.168.1.0 0.0.0.255
 no auto-summary
+
 ##BGP
 router bgp 10
 neighbor 192.168.233.8 remote-as 100
